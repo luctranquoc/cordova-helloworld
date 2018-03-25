@@ -1,0 +1,19 @@
+{
+  "name": "co.dobyl.cordovahelloword",
+  "version": "0.0.1",
+  "displayName": "cordova-helloworld",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-websql": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "7.1.0",
+    "cordova-plugin-websql": "0.0.10",
+    "cordova-plugin-whitelist": "^1.3.3"
+  }
+}
