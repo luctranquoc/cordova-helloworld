@@ -2,7 +2,8 @@
 <widget id="co.dobyl.cordovahelloword" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>cordova-helloworld</name>
     <description>
-		A sample Apache Cordova application that responds to the deviceready
+		A sample Apache Cordova application that responds to the
+		deviceready
 		event.
 	</description>
     <author email="thym-dev@eclipse.org" href="http://www.eclipse.org/thym">
@@ -26,4 +27,5 @@
     </platform>
     <plugin name="cordova-plugin-websql" spec="0.0.10" />
     <engine name="android" spec="7.1.0" />
+    <engine name="ios" spec="4.5.4" />
 </widget>
