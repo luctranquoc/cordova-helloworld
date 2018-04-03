@@ -26,6 +26,7 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <plugin name="cordova-plugin-websql" spec="0.0.10" />
+    <plugin name="cordova-plugin-firebase" spec="^0.1.25" />
     <engine name="android" spec="7.1.0" />
     <engine name="ios" spec="4.5.4" />
 </widget>

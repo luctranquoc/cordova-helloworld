@@ -12,6 +12,9 @@
     },
     "cordova-plugin-websql": {
       "PACKAGE_NAME": "co.dobyl.cordovahelloword"
+    },
+    "cordova-plugin-firebase": {
+      "PACKAGE_NAME": "co.dobyl.cordovahelloword"
     }
   },
   "dependent_plugins": {}

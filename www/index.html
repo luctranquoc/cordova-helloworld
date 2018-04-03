@@ -5,8 +5,9 @@
   <title>Onsen UI Memo App 2.0</title>
 
   <script src="lib/onsen/js/onsenui.js"></script>
-
-  <script src="js/app.js"></script>
+  
+  <script src="cordova.js"></script>  
+  <script src="js/app.js"></script>  
   <script src="js/services.js"></script>
   <script src="js/controllers.js"></script>
 
@@ -20,8 +21,7 @@
 
   <!-- First navigation component: Navigator. This will remain always on top of the app. -->
   <ons-navigator id="myNavigator" page="splitter.html">
-  </ons-navigator>
-
+  </ons-navigator>	
 
   <!-- Second navigation component: Splitter. This will disappear if the first component changes its content. -->
   <template id="splitter.html">
@@ -63,7 +63,7 @@
 
       <!-- Auto-positioned Tabbar: top on Android, bottom on iOS/other. -->
       <ons-tabbar id="myTabbar" position="auto">
-        <ons-tab page="html/pending_tasks.html" label="Pending" active>
+        <ons-tab page="html/pending_tasks.html" label="Jobs" active>
         </ons-tab>
         <ons-tab page="html/completed_tasks.html" label="Completed">
         </ons-tab>
